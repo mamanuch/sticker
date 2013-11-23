@@ -1,4 +1,7 @@
-﻿
+﻿body{
+overflow-x: none; 
+}
+
 #container{		
 	display: block;
 	height: 500px;	
@@ -8,7 +11,7 @@
 
 .sticker {	
 	position: absolute;
-	
+	border:5px solid grey;
 	resize: none;
 	border-radius: 5px;	
 	display: block;
@@ -21,10 +24,6 @@
 	margin: 10px;
 }
 
-.cat:nth-child(odd) {
-	background-color: #0000FF;
-	color: #FF0000;
-}
 
 .sticker_default{	
 	resize: none;
